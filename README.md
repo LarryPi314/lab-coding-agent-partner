@@ -1,4 +1,4 @@
-# Python O(1) Memory cat.py
+# Python O(1) Memory cat.py ![https://github.com/LarryPi314/lab-coding-agent-partner/actions?query=workflow%3Atests](https://github.com/LarryPi314/lab-coding-agent-partner/workflows/tests/badge.svg)
 
 Instructions:
 
