@@ -86,7 +86,7 @@ function committe-apply() {
     #    This command automatically adds the changed files to the staging area
     #    (which is also called the index),
     #    so we do not need to run a separate git add command before committing.
-    if ! git apply --index --recount --ignore-whitespace '.git/committe-patchfile'; then
+    if ! git apply --index --recount --ignore-whitespace "$(git rev-parse --git-dir)/committe-patchfile"; then
         echo 'git apply failed'
         return 1
     fi
